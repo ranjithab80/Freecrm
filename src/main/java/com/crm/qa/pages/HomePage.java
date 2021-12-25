@@ -1,7 +1,8 @@
 package com.crm.qa.pages;
 
 public class HomePage {
-    HomePage homepage;
+    private static HomePage homepage;
+    int c;
     int sub(int a,int b)
     {
         return c=a-b;
@@ -9,7 +10,7 @@ public class HomePage {
     public static void main(String [] args)
     {
         homepage=new HomePage();
-        homepage.sub();
+        homepage.sub(4,2);
         System.out.println(homepage.c);
         System.out.println("ishanth");
     }
